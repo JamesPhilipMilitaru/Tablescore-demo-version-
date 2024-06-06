@@ -1,0 +1,64 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    position: relative;
+    height: 100vh;
+    margin:0;
+    
+
+
+}
+
+.scoreboard{
+
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+}
+
+.square {
+    width:150px;
+    height:150px;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    border:2px solid #000;
+    justify-content: center;   
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+#right{
+
+    background-color: red;
+    
+}
+
+#left{
+
+    background-color: blue;
+    
+}
+
+.square span{
+    
+    font-size: 2em;
+    margin-bottom:10px;
+}
+
+button {
+    font-size: 1em;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
